@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Template extends SegmentationFramework {
+public class Basic_Template extends SegmentationFramework {
 	
 	/**
 	 * New global variables
@@ -25,7 +25,7 @@ public class Template extends SegmentationFramework {
 	/**
 	 * Change of predetermined global variables and initialization of complex new ones
 	 */
-	public Template() {
+	public Basic_Template() {
 		/** Predetermined variables */
 		super();
 		pluginTitle = "Name";
